@@ -7,6 +7,9 @@ import charts from './Components/charts'
 import icon from './Components/icon'
 import PagesProfile from './Components/PagesProfile';
 import PageSignIn from './Components/PageSignIn';
+import PageSignUp from './Components/PageSignUp';
+import UITypography from './Components/UITypography';
+import UpgradeToPro from './Components/UpgradeToPro';
 
 function App() {
   return (
@@ -16,10 +19,13 @@ function App() {
       {/* <UIcards/> */}
       {/* <UIframes/> */}
       {/* <charts/> */}
-      <icon/>
+      {/* <icon/> */}
       {/* <MapsGoogle/> */}
       {/* <PagesProfile/> */}
       {/* <PageSignIn/> */}
+      {/* <PageSignUp/> */}
+      {/* <UITypography/> */}
+      <UpgradeToPro/>
     </div>
     );
 }
