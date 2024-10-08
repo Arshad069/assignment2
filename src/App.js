@@ -3,6 +3,8 @@ import Dashboard from './Components/Dashboard';
 import UIcards from './Components/UIcards';
 import UIframes from './Components/UIframes';
 import MapsGoogle from './Components/MapsGoogle';
+import PagesProfile from './Components/PagesProfile';
+import PageSignIn from './Components/PageSignIn';
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       {/*<Button/>*/}
       {/* <UIcards/> */}
       {/* <UIframes/> */}
-      <MapsGoogle/>
+      {/* <MapsGoogle/> */}
+      {/* <PagesProfile/> */}
+      <PageSignIn/>
     </div>
     );
 }
