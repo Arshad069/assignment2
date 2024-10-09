@@ -14,6 +14,8 @@ import UpgradeToPro from './Components/UpgradeToPro';
 import SideBar from './Components/SideBar';
 import Starter from './Components/Starter';
 import GenericCoffe from './Components/GenericCoffe';
+import PagesBlank from './Components/PagesBlank';
+import ElementsHeader from './Components/ElementsHeader';
 
 function App() {
   return (
@@ -28,12 +30,14 @@ function App() {
       {/* <PagesProfile/> */}
       {/* <PageSignIn/> */}
       {/* <PageSignUp/> */}
+      {/* <PagesBlank/> */}
       {/* <UITypography/> */}
       {/* <UpgradeToPro/> */}
       {/* <Feature/> */}
       {/* <SideBar/> */}
       {/* <Starter/> */}
-      <GenericCoffe/>
+      {/* <GenericCoffe/> */}
+      <ElementsHeader/>
     </div>
     );
 }
