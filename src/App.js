@@ -16,6 +16,7 @@ import Starter from './Components/Starter';
 import GenericCoffe from './Components/GenericCoffe';
 import PagesBlank from './Components/PagesBlank';
 import ElementsHeader from './Components/ElementsHeader';
+import ElementButton from './Components/ElementButton';
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       {/* <SideBar/> */}
       {/* <Starter/> */}
       {/* <GenericCoffe/> */}
-      <ElementsHeader/>
+      {/* <ElementsHeader/> */}
+      <ElementButton/>
     </div>
     );
 }
