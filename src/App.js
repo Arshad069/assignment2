@@ -10,6 +10,9 @@ import PageSignIn from './Components/PageSignIn';
 import PageSignUp from './Components/PageSignUp';
 import UITypography from './Components/UITypography';
 import UpgradeToPro from './Components/UpgradeToPro';
+// import Feature from './Components/Feature';
+import SideBar from './Components/SideBar';
+import Starter from './Components/Starter';
 
 function App() {
   return (
@@ -25,7 +28,10 @@ function App() {
       {/* <PageSignIn/> */}
       {/* <PageSignUp/> */}
       {/* <UITypography/> */}
-      <UpgradeToPro/>
+      {/* <UpgradeToPro/> */}
+      {/* <Feature/> */}
+      {/* <SideBar/> */}
+      <Starter/>
     </div>
     );
 }
