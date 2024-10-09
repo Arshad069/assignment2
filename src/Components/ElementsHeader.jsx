@@ -2,10 +2,10 @@ import React from 'react'
 
 const ElementsHeader = () => {
   return (
-    <div><div class="header-top">
-    <div class="container">
-        <div class="row justify-content-end">
-            <div class="col-lg-6 col-sm-4 col-8 header-top-right no-padding">
+    <div><div className="header-top">
+    <div className="container">
+        <div className="row justify-content-end">
+            <div className="col-lg-6 col-sm-4 col-8 header-top-right no-padding">
                 <ul>
                     <li>
                         Mon-Fri: 8am to 2pm
@@ -21,19 +21,19 @@ const ElementsHeader = () => {
         </div>			  					
     </div>
 </div>			  	
-<div class="container">
-  <div class="row align-items-center justify-content-between d-flex">
+<div className="container">
+  <div className="row align-items-center justify-content-between d-flex">
     <div id="logo">
       <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
     </div>
     <nav id="nav-menu-container">
-      <ul class="nav-menu">
-        <li class="menu-active"><a href="index.html#home">Home</a></li>
-        <li><a href="index.html#about">About</a></li>
-        <li><a href="index.html#coffee">Coffee</a></li>
-        <li><a href="index.html#review">Review</a></li>
-        <li><a href="index.html#blog">Blog</a></li>
-        <li class="menu-has-children"><a href="">Pages</a>
+      <ul className="nav-menu">
+        <li className="menu-active"><a href="index.html/home">Home</a></li>
+        <li><a href="index.html/about">About</a></li>
+        <li><a href="index.html/coffee">Coffee</a></li>
+        <li><a href="index.html/review">Review</a></li>
+        <li><a href="index.html/blog">Blog</a></li>
+        <li className="menu-has-children"><a href="">Pages</a>
           <ul>
             <li><a href="generic.html">Generic</a></li>
             <li><a href="elements.html">Elements</a></li>
