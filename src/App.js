@@ -13,6 +13,7 @@ import UpgradeToPro from './Components/UpgradeToPro';
 // import Feature from './Components/Feature';
 import SideBar from './Components/SideBar';
 import Starter from './Components/Starter';
+import GenericCoffe from './Components/GenericCoffe';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <UpgradeToPro/> */}
       {/* <Feature/> */}
       {/* <SideBar/> */}
-      <Starter/>
+      {/* <Starter/> */}
+      <GenericCoffe/>
     </div>
     );
 }
